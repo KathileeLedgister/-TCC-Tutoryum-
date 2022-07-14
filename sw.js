@@ -4,8 +4,8 @@ const FILES_TO_CACHE = [
 	'pg/tumcoin.html',
 	'css/app.css',
 	'js/code.js',
-	'js/app.js',
-	'js/install.js',
+	'js/app.min.js',
+	'js/install.min.js',
 	//'images/tumcoin-intro.png',
 	'images/icons/tumcoin-512x512.png',
 	'images/icons/tumcoin-384x384.png',
@@ -19,7 +19,7 @@ const FILES_TO_CACHE = [
 	'images/icons/tumcoin-48x48.png'
 ];
 
-const CACHE_NAME = 'app-cache-v20';
+const CACHE_NAME = 'app-cache-v20.1';
 
 self.addEventListener('install', event => {
 	event.waitUntil(
